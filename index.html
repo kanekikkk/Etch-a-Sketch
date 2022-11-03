@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    <div class="container">
+        <form action="">
+            <input id="sliderMain" type="range" min="16" max="64" value="16" onchange="sliderValue(value)">
+            <p class="slider">grid size:16 x 16</p>
+            <button onclick="rgb(); return false;">Random Color</button>
+            <button onclick="grayIntensify(); return false;">Gray Scale</button>
+            <button onclick="blackkk(); return false;">Black</button>
+            <button onclick="removee(); return false">Eraser</button>
+            <button>Reset</button>
+        </form>
+        <div class="grid">
+            
+        </div>
+    </div>
+</body>
+</html>
